@@ -35,11 +35,7 @@ public class App3 {
             Map.Entry<Integer, ArrayList<Integer>> next = iterator.next();
             Integer key = next.getKey();
             ArrayList<Integer> value = next.getValue();
-            for (int a:value
-                    ) {
-                System.out.println(a+",");
-
-            }
+           
             bubbleSort(value,value.size());
 
             System.out.print(key+"=");
